@@ -9,7 +9,16 @@
 
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://scholar.google.com/citations?user=b3J3vWAAAAAJ&hl=en&oi=sra
+    
+  - title: "CV"
+    url: /files/jack_cashman_CV.pdf
+
+  - title: "Resume"
+    url: /files/jack_cashman_resume.pdf
+
+  - title: "News"
+    url: /news/   
 
   # - title: "Talks"
   #   url: /talks/    
@@ -22,18 +31,6 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
-  - title: "CV"
-    url: /files/jack_cashman_cv.pdf
-
-  - title: "Resume"
-    url: /files/jack_cashman_resume.pdf
-
-  - title: "News"
-    url: /news/   
-    
-  # - title: "CV"
-  #   url: /cv-json/
     
   # - title: "Guide"
   #   url: /markdown/
