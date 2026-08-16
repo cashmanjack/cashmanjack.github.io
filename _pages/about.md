@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year Ph.D. student in the [Electrical and Computer Engineering Department](https://engineering.purdue.edu/ECE) at Purdue University. I am advised by [Milind Kulkarni](https://engineering.purdue.edu/~milind/). My research focuses on the use of hardware accelerators for irregular memory applications, with an interest in reducing data movement complexity through locality optimizations.
+I am a first year Ph.D. student in the [Electrical and Computer Engineering Department](https://engineering.purdue.edu/ECE) at Purdue University, advised by [Milind Kulkarni](https://engineering.purdue.edu/~milind/). My research explores GPU ray tracing cores as general purpose accelerators for irregular parallel workloads. I am also interested in data movement compiler optimizations.
 
 ## Research Areas
 - Locality 
 - Compilers
-- High Performance Computing
 - Irregular Memory Applications
 - Performance Modeling
+- Hardware Accelerators
 
 ## Education
 

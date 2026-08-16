@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Jack Cashman"
 title_separator          : "-"
 name                     : &name "Jack Cashman"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpeg"
   name             : "Jack Cashman"
   pronouns         : "he/him"
-  bio              : "Purdue ECE PhD"
+  bio              : "PhD Student, Purdue ECE"
   location         : "Lafayette, IN, USA"
   employer         : "Purdue University"
   uri              : # URL
