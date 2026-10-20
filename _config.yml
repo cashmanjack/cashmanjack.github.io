@@ -12,11 +12,11 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Jack Cashman"
 title_separator          : "-"
 name                     : &name "Jack Cashman"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Jack Cashman, PhD student in ECE at Purdue University. GPU ray tracing hardware, locality, compilers and performance modeling."
 url                      : https://cashmanjack.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "cashmanjack/cashmanjack.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,8 +26,8 @@ author:
   avatar           : "profile.jpeg"
   name             : "Jack Cashman"
   pronouns         : "he/him"
-  bio              : "PhD Student, Purdue ECE"
-  location         : "Lafayette, IN, USA"
+  bio              : "PhD Student, Purdue ECE. NSF GRFP Fellow"
+  location         : "West Lafayette, IN, USA"
   employer         : "Purdue University"
   uri              : # URL
   email            : "cashman3@purdue.edu" 
@@ -221,16 +221,7 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -255,15 +246,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -273,23 +255,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS

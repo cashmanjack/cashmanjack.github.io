@@ -9,13 +9,10 @@
 
 main:
   - title: "Publications"
-    url: https://scholar.google.com/citations?user=b3J3vWAAAAAJ&hl=en&oi=sra
+    url: /publications/
     
   - title: "CV"
     url: /files/jack_cashman_CV.pdf
-
-  - title: "Resume"
-    url: /files/jack_cashman_resume.pdf
 
   - title: "News"
     url: /news/   
