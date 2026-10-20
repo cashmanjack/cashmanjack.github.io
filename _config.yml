@@ -143,8 +143,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.jpeg" # Social media default site image
+og_description           : "Jack Cashman, PhD student in ECE at Purdue University. GPU ray tracing hardware, locality, compilers and performance modeling."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

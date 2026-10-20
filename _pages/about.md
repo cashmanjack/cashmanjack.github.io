@@ -9,6 +9,13 @@ redirect_from:
 
 I am a first year Ph.D. student in the [Electrical and Computer Engineering Department](https://engineering.purdue.edu/ECE) at Purdue University, advised by [Milind Kulkarni](https://engineering.purdue.edu/~milind/). My research explores GPU ray tracing cores as general purpose accelerators for irregular parallel workloads. I am also interested in data movement compiler optimizations.
 
+## Recent News
+{% for item in site.data.news limit:3 %}
+- **{{ item.date }}:** {{ item.text }}
+{% endfor %}
+
+[All news](/news/)
+
 ## Research Areas
 - Locality 
 - Compilers
