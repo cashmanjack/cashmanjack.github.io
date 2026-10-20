@@ -16,6 +16,12 @@
   /* keep footer in normal document flow so custom widgets do not overlap content */
   height: auto;
 
+  /* sit above the fixed sidebar (z-index 10) but below the masthead (20), so
+     when you scroll to the bottom the footer cleanly covers the sidebar
+     instead of the two texts drawing over each other */
+  position: relative;
+  z-index: 15;
+
   margin-top: 3em;
 
   -webkit-animation: intro 0.3s both;
